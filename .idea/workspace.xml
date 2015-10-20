@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="61b82a5b-00b5-46ca-a03b-6d5b9472968d" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/css/playlist-styles.css" afterPath="$PROJECT_DIR$/assets/css/playlist-styles.css" />
-    </list>
+    <list default="true" id="61b82a5b-00b5-46ca-a03b-6d5b9472968d" name="Default" comment="" />
     <ignored path="fms-playlist.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
