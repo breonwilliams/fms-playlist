@@ -127,6 +127,36 @@ ul.course-details {
     left: 100%;
 }
 
+@media (max-width: 768px) {
+    ul.course-details {
+        z-index: 9999;
+        display: none;
+        width: 320px;
+        padding: 0;
+        margin: 0;
+        text-align: left;
+        list-style: none;
+        background: #eee;
+        border: none;
+        position: absolute;
+        top: 40px;
+        float: left;
+        left: 0;
+    }
+
+    .content ul.course-details:after {
+        content: "";
+        position: absolute;
+        top: -15px;
+        left: 15px;
+        border-top: 20px solid #eee;
+        border-top-color: inherit;
+        border-right: 20px solid transparent;
+        border: 10px solid transparent;
+        border-bottom-color: #eee;
+    }
+}
+
 ul.course-details:after {
     content: "";
     position: absolute;
