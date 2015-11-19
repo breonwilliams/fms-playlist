@@ -1,8 +1,5 @@
 @import url(https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600,600italic,700,700italic,800,800italic);
 
-body{
-    font-family: 'Open Sans', sans-serif;
-}
 
 .cleared {
     clear: both;
@@ -15,6 +12,7 @@ body{
     font-size: 12px;
     padding-right: 15px;
     padding-left: 15px;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .set{
@@ -110,6 +108,10 @@ body{
     color: #fff;
     background: #222;
 }
+.content ul > li a.active {
+    color: #fff;
+    background: #222;
+}
 
 ul.course-details {
     z-index: 9999;
@@ -186,6 +188,7 @@ Responsive Youtube Video
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
     padding-top: 25px;
+    margin-bottom: 30px;
     height: 0;
 }
 .videoWrapper iframe {
@@ -875,7 +878,7 @@ Responsive Youtube Video
     text-decoration: none !important;
 }
 
-* {
+.accordion-container * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
